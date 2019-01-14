@@ -7,6 +7,7 @@ package internal;
 message RefreshToken {
   string refresh_id = 1;
   string token = 2;
+  int64 issued_timestamp = 3;
 }
 
 // IDTokenSubject represents both the userID and connID which is returned
